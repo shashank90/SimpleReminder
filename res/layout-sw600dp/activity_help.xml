@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.shashank.simplereminder.Help" >
+
+      <LinearLayout
+         android:id="@+id/linearLayout38"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="FAQ" />
+    <TextView
+         android:id="@+id/TextViewQ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="How to Edit Reminders ?" />
+    
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Press reminder on home screen. You can find Edit options at top of new screen" />
+      
+       <TextView
+        android:id="@+id/TextViewQ2"   
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="What options are customizable ?" />
+       
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Use settings option from menu on home screen. You can select notification sound and vibration pattern." />
+        
+           <TextView
+        android:id="@+id/TextViewQ3"       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Why do some reminders don't go off at exact time?" />
+           
+              <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Android OS may sometimes shift alarms to minimize wakeups and battery use.The alarm will be delivered as nearly as possible to requested trigger time. " />
+		</LinearLayout>
+
+      
+              
+      <LinearLayout
+     android:id="@+id/linearLayout39"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/linearLayout38"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="20dp"
+     android:orientation="horizontal" >
+              
+          <Button
+         android:id="@+id/ButtonOK"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="OK" />
+    
+</LinearLayout> 
+
+</RelativeLayout>

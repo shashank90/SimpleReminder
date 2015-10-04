@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    tools:context="com.shashank.simplereminder.ViewReminder" >
+
+    <LinearLayout
+     android:id="@+id/linearLayout21"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     
+     android:layout_centerHorizontal="true"
+    
+     android:orientation="vertical" >
+
+     <TextView
+         android:id="@+id/TextViewNote3"
+         android:layout_width="400dp"
+         android:layout_height="100dp"
+         android:layout_marginBottom="20dp"
+         android:ems="10"
+        android:textSize="25sp"
+        
+         android:hint="Note" />
+ </LinearLayout>
+ 
+ <LinearLayout
+     android:id="@+id/linearLayout22"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/linearLayout21"
+     android:layout_centerHorizontal="true"
+     android:layout_centerVertical="true"
+     android:orientation="vertical" >
+
+     
+     <TextView
+         android:id="@+id/TextViewDate3"
+         android:layout_width="190dp"
+         android:layout_height="40dp"
+         android:layout_marginBottom="40dp"
+         android:ems="10"
+         
+         android:paddingLeft="60dp"
+         android:textSize="25sp"
+         android:hint="Date" >
+
+         
+     </TextView>
+  
+  
+     <TextView
+         android:id="@+id/TextViewTime3"
+         android:layout_width="190dp"
+         android:layout_height="40dp"
+         android:layout_above="@+id/radioOnce3"
+         android:layout_alignLeft="@+id/radioOnce3"
+         android:layout_marginBottom="40dp"
+         android:ems="10"
+         android:paddingLeft="60dp"
+         android:textSize="25sp"
+         android:hint="Time" >
+         
+         </TextView>
+<RadioGroup
+        android:id="@+id/radioAlarmType3"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="40dp"
+         android:paddingLeft="60dp"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioOnce3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Once" 
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioDaily3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/Daily" />
+
+         <RadioButton
+            android:id="@+id/radioWeekly3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/Weekly" />
+         
+         <RadioButton
+            android:id="@+id/radioMonthly3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/Monthly" />
+        
+    </RadioGroup>
+     
+
+
+     
+     </LinearLayout>
+
+ 
+
+
+ <LinearLayout
+     android:id="@+id/linearLayout24"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/linearLayout22"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="25dp"
+     android:orientation="horizontal" >
+     
+     </LinearLayout>
+ 
+ 
+</RelativeLayout>
